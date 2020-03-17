@@ -1,0 +1,63 @@
+body {
+    /* background-color: */
+    font-family: "Montserrat", "Open San", "Roboto";
+    text-align: center;
+}
+
+#page-header, #q1-header, #q2-header, #q3-header {
+    background-color: #13552B;
+    color: white;
+    border-radius: 5px;
+}
+
+#answer-btn {
+    background-color: #13552B;
+    color: white;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin-top:20px;
+}
+
+#submit-button {
+    background-color: #13552B;
+    color: white;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#submit-button:hover {
+    background-color: white;
+    color: #13552B;
+}
+
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.upload-button {
+    background-color: #13552B;
+    color: white;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.upload-button:hover {
+    background-color: white;
+    color: #13552B;
+}
+
+.upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
