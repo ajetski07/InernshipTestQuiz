@@ -17,7 +17,7 @@ function showTextNode(textNodeIndex) {
         if (showOption(option)) {
             const button = document.createElement("button")
             button.innerText = option.text
-            button.classList.add("btn")
+            button.classList.add("answer-btn")
             button.addEventListener("click", () => selectOption(option))
             optionButtonElement.appendChild(button)
         }

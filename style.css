@@ -1,5 +1,6 @@
 body {
-    /* background-color: */
+    background-color: #8E612F;
+    /* color: white; */
     font-family: "Montserrat", "Open San", "Roboto";
     text-align: center;
 }
@@ -10,11 +11,20 @@ body {
     border-radius: 5px;
 }
 
-#answer-btn {
+#card-body {
+    background-color: white;
+}
+
+.answer-btn {
     background-color: #13552B;
     color: white;
     margin: 5px;
     border-radius: 5px;
+}
+
+.answer-btn:hover {
+    background-color: white;
+    color: #13552B;
 }
 
 .btn-grid {
